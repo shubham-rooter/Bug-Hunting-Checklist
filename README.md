@@ -44,9 +44,14 @@ The checklist is organized into several sections, each focusing on a specific as
 
 To get started with using this checklist, simply visit the [Bug Hunting Checklist for Web App](http://shubham-rooter.github.io/Bug-Hunting-Checklist/) webpage, where you'll find the full checklist with checkboxes. You can use this checklist as a guide while conducting security assessments on web applications.
 
-## Contributing
+## Contribution
 
-Contributions to this checklist are welcome! If you have suggestions for improvements, additional security checks, or bug fixes, please open an issue or submit a pull request. Your contributions will help make this checklist even more valuable to the community.
+This project is open to contributions, and we welcome help from the community to improve and expand the bug hunting checklist. A special thanks to our contributor:
+
+- [muthumohanprasath](https://github.com/muthumohanprasath)
+
+Your contributions are valuable in making this checklist even more comprehensive and useful for the bug hunting community.
+
 
 ## License
 
