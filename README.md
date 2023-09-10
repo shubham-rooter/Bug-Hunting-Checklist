@@ -12,7 +12,7 @@ Welcome to the Bug Hunting Checklist for Web App repository! This checklist is a
 - [Introduction](#introduction)
 - [Checklist Sections](#checklist-sections)
 - [Getting Started](#getting-started)
-- [Contributing](#contributing)
+- [Contributing](#Contribution)
 - [License](#license)
 
 ## Introduction
