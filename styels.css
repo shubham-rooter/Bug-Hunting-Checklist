@@ -1,0 +1,129 @@
+body {
+            background-image: url('https://images4.alphacoders.com/766/76698.jpg'); /* Background image URL */
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-color: black; /* Fallback background color */
+            color: lime;
+            font-family: 'Courier New', monospace;
+        }
+        body {
+            background-color: black;
+            color: lime;
+            font-family: 'Courier New', monospace;
+        }
+
+        h1, h2 {
+            color: red;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-left: 20px;
+            padding: 5px 0;
+        }
+
+        .checkbox {
+            margin-left: -20px;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        input[type="checkbox"]:checked + label {
+            text-decoration: line-through;
+            color: gray;
+        }
+
+        /* Custom Button Styles */
+        .custom-button {
+            background-color: #007bff; /* Button background color */
+            color: white; /* Button text color */
+            padding: 10px 20px; /* Button padding */
+            border: none; /* Remove button border */
+            cursor: pointer; /* Add a pointer cursor on hover */
+            border-radius: 5px; /* Add rounded corners */
+            transition: background-color 0.3s ease; /* Add a smooth transition effect */
+        }
+
+        .custom-button:hover {
+            background-color: #0056b3; /* Button background color on hover */
+        }
+
+        /* Dark Mode */
+        .dark-mode {
+            background-color: #121212;
+            color: white;
+        }
+
+        .dark-mode h1, .dark-mode h2 {
+            color: #bb86fc;
+        }
+
+        /* Hacker Style */
+        .hacker {
+            background-color: black;
+            color: green;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            letter-spacing: 2px;
+            word-spacing: 4px;
+        }
+
+        .hacker h1, .hacker h2 {
+            color: green;
+        }
+
+        /* Hacker Animation */
+        .hacker-animation {
+            animation: pulse 1s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+         .sidebar {
+            position: fixed;
+            top: 0;
+            right: 0;
+            background-color: #333; /* Sidebar background color */
+            width: 300px; /* Adjust the width as needed */
+            padding: 20px;
+            color: white;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar li {
+            margin: 10px 0;
+        }
+
+        .sidebar a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        /* Font Awesome Icons Styles */
+        .sidebar .fa {
+            margin-right: 5px;
+        }
+        .centered-content {
+            text-align: center;
+            margin-top: 20px; /* Add space between the content and the sidebar */
+        }
